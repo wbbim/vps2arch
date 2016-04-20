@@ -313,7 +313,7 @@ while getopts ":b:m:n:h" opt; do
 done
 shift $((OPTIND - 1))
 
-: ${mirrors:="http://mirror.rackspace.com/archlinux http://dgix.ru/mirrors/archlinux"}
+: ${mirrors:="http://mirrors.ustc.edu.cn/archlinux http://mirror.rackspace.com/archlinux http://dgix.ru/mirrors/archlinux"}
 
 if is_openvz; then
 	bootloader=none
